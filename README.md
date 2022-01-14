@@ -4,6 +4,8 @@
 
 ## Node Version Used 16.13.0
 
+## Deployed at[https://manzana-verde-prueba.vercel.app/]
+
 ## Build Setup
 
 ```bash
