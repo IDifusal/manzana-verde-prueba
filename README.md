@@ -1,6 +1,6 @@
 # prueba-tecnica-manzana-verde
 
-## Nuxt | Store | Jest | Sass | LocalStorage
+## Nuxt | Nuxt Content | Nuxt Store | Tailwind |Jest | Sass | LocalStorage
 
 ## Node Version Used 16.13.0
 
