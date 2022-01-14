@@ -29,6 +29,7 @@ export default {
           icon: 'manzana',
           creditos: false,
           url: 'media-mañana',
+          link: '/',
         },
         {
           title: 'Almuerzo',
@@ -36,6 +37,7 @@ export default {
           icon: 'lunch',
           creditos: true,
           url: 'almuerzo',
+          link: 'almuerzo',
         },
         {
           title: 'Media tarde',
@@ -43,6 +45,7 @@ export default {
           icon: 'manzana',
           creditos: false,
           url: 'media-tarde',
+          link: '/',
         },
         {
           title: 'Cena',
@@ -50,6 +53,7 @@ export default {
           icon: 'dinner',
           creditos: false,
           url: 'cena',
+          link: '/',
         },
       ],
     }

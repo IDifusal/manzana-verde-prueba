@@ -26,7 +26,7 @@
           <p>{{ comida.cal }}</p>
         </div>
 
-        <nuxt-link :to="`comidas/${comida.url}`">
+        <nuxt-link :to="`comidas/${comida.link}`">
           <div
             class="
               creditos
@@ -40,7 +40,7 @@
             "
             :class="btnStatus"
           >
-            Agregar
+            {{ comida.creditos ? 'Agregar' : 'No tienes creditos' }}
           </div>
         </nuxt-link>
       </div>
