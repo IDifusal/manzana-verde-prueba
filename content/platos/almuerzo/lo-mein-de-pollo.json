@@ -1,0 +1,23 @@
+{
+    "id":1,
+    "title":"Lo mein de pollo",
+    "slug":"lo-mein-de-pollo",
+    "category":"almuerzo",
+    "image":"https://dc771.4shared.com/img/o86g0B5hiq/s24/17e4f64e398/lomen-de-pollo?async&rand=0.5451234758364933",
+    "recomendado":true,
+    "cal":1100,
+    "ingredients":"Delicioso plato de pasta con pollo, verduras salteadas y chía.",
+    "datos":{
+        "cal":"800",
+        "grasa":"800",
+        "carbo":"800",
+        "prote":"800"
+    },
+    "icons":{
+        "low_sodio":true,
+        "low_azucar":true,
+        "low_glutem":true,
+        "no_lactosa":true,
+        "bajo_carbo":true
+    }
+}
