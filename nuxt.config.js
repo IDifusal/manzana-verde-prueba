@@ -1,7 +1,7 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: 'dist',
-
+  target: 'static',
+  buildDir: 'dist',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'prueba-tecnica-manzana-verde',
