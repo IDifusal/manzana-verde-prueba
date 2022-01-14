@@ -25,23 +25,24 @@
           <h1>{{ comida.title }}</h1>
           <p>{{ comida.cal }}</p>
         </div>
-        <div
-          class="
-            creditos
-            absolute
-            w-32
-            h-11
-            rounded-lg
-            flex
-            items-center
-            justify-center
-          "
-          :class="btnStatus"
-        >
-          <nuxt-link :to="`comidas/${comida.url}`">{{
-            comida.creditos ? 'Agregar' : 'No tienes creditos'
-          }}</nuxt-link>
-        </div>
+
+        <nuxt-link :to="`comidas/${comida.url}`">
+          <div
+            class="
+              creditos
+              absolute
+              w-32
+              h-11
+              rounded-lg
+              flex
+              items-center
+              justify-center
+            "
+            :class="btnStatus"
+          >
+            Agregar
+          </div>
+        </nuxt-link>
       </div>
     </div>
     <div v-if="pedidosCategoria">

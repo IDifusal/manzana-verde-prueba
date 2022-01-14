@@ -3,7 +3,7 @@
     <TopBar :detalle="true" />
     <div class="px-4 mt-7 pb-20">
       <div
-        class="img-plato h-44 rounded-xl"
+        class="img-plato h-44 rounded-xl bg-no-repeat"
         :style="{
           backgroundImage: `url(${plato.image})`,
         }"

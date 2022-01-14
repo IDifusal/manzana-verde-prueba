@@ -51,8 +51,12 @@ export default {
   },
 }
 </script>
-<style lang="sass" scoped>
-.featured
-  top: 0
-  right: 15px
+<style lang="scss" scoped>
+.featured {
+  top: 0;
+  right: 15px;
+}
+.img-dish {
+  background-repeat: no-repeat;
+}
 </style>
